@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="week10.css"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/js/bootstrap.bundle.js">
+    <link rel="stylesheet" href="week10.css">
+</head>
+<body>
+  
+    </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand">Shop</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col self-care">
+            <h1 class="display-1 p-5 text-center">Time To Grow</h1>
+        </div>
+    </div>
+    <div class="row text-center mt-4">
+        <div class="col-12 col-md-6 col-lg-4 bg-light p-3">
+            <p>Clean out that closet, time for a new style</p>
+            <button class="btn btn-success">Clothing</button>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 bg-light p-3">
+            <p>Self Expression</p>
+            <button class="btn btn-success">Makeup</button>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4 bg-light p-3">
+            <p>New Face Routine</p>
+            <button class="btn btn-success">Skincare</button>
+        </div>
+    </div>
+</div>
+
+<footer class="bg-slate text-darkblue p-4 mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-md-3">
+                <ul class="list-outlined">
+                    <li>BE YOU</li>
+                    <li>DO YOU</li>
+                    <li>LOVE YOU</li>
+                </ul>
+            </div>
+            <div>
+                <input type="text" id="list-input" onkeypress="onKeyPress()" />
+                <button onclick="createListItem()">Add</button>
+                <button id="delete-bottom-item-button">Delete Bottom Item</button>
+                <button onclick="deleteAllListItems()">Delete All</button>
+                <ul id="list-container" class="list-group">
+                </ul>
+             </div>
+         </div>
+    </div>
+</footer>
+
+</html>

@@ -1,0 +1,29 @@
+.bg-slate {
+    background-color: #3b6e7b;
+}
+
+footer {
+    background-color: #581469;
+}
+
+body {
+    background-color: #3e7582;
+}
+h1 {
+    color: rgb(19, 19, 34);
+    font-family: verdana;
+    font-size: 300%;
+}
+p {
+    color: rgb(206, 155, 223);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    border: solid;
+    background:rgb(82, 13, 105);
+
+}
+
+li {
+    color:rgb(82, 13, 105);
+    font-weight: bolder;
+}
