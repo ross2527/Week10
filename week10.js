@@ -4,8 +4,6 @@ const textbox = document.getElementById("list-input")
         const list = document.querySelector("#list-container") 
         const deleteBottomItemButton = document.getElementById("delete-bottom-item-button")
 
-        const listArray = []
-
         deleteBottomItemButton.addEventListener("click", deleteBottomItem)
 
         function createListItem() {
